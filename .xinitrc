@@ -1,0 +1,1 @@
+/home/dns/.config/x11/xinitrc
