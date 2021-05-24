@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/dns/.config/transmission-daemon'
+let g:netrw_dirhist_9='/home/dns/.config/transmission-daemon/torrents'
+let g:netrw_dirhist_8='/home/dns/.config/transmission-daemon'
+let g:netrw_dirhist_7='/home/dns/Documents/Arbeit'
+let g:netrw_dirhist_6='/home/dns/.vim'
+let g:netrw_dirhist_5='/home/dns/vimwiki'
+let g:netrw_dirhist_4='/etc/laptop-mode'
+let g:netrw_dirhist_3='/home/dns/.git/slstatus'
+let g:netrw_dirhist_2='/home/dns/.local/bin'
+let g:netrw_dirhist_1='/home/dns/.config'

@@ -1,0 +1,1 @@
+/home/dns/.config/vim/.vim
