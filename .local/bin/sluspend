@@ -1,0 +1,4 @@
+#!/bin/sh
+slock &
+sleep 1 &
+sudo loginctl suspend

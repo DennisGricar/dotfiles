@@ -1,0 +1,4 @@
+#!/bin/sh
+
+xdeets="$(xrandr -q)"
+echo "$xdeets" | grep "DP2-1 con" >/dev/null 2>&1 && xrandr --output DP2-1 --size 1920x1080 --output eDP1 --off &

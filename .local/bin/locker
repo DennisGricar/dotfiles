@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# exec xautolock -detectsleep -timer 10 -locker 'slock' -corners -000 -notify 30 -notifier "notify-send -u critical -t 10000 -- 'Locking screen in 30 seconds'" & 
+exec xidlehook --not-when-audio --not-when-fullscreen  --timer 600 'dunstify -u Critical "locking screen in 60 seconds"' ''  --timer 660 'slock' '' --timer 1200 'sudo loginctl suspend' ''
+#sleep 600 &
+#sudo loginctl suspend
+
