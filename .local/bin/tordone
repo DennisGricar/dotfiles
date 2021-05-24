@@ -1,3 +1,0 @@
-#/bin/sh
-
-notify-send "transmmission-damoen" "$TR_TORRENT_NAME has completely downloaded."
