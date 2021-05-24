@@ -1,0 +1,14 @@
+#!/bin/sh
+
+screener &
+dunst &
+setbg ~/Pictures/wall/wallpapers-master/Landscapes/ &
+xbacklight -set 20 &
+remaps &
+locker &
+redshift &
+slstatus 2>&1 >/dev/null &
+
+#pidof -s openrc &&
+#	pidof -s ! pidof -s pulseaudio >/dev/null 2>&1 &&
+#	setsid -f pulseaudio --start --exit-idle-time=-1 >/dev/null 2>&1
