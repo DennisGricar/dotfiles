@@ -1,9 +1,10 @@
 #!/bin/sh
 
 screener &
+touchpad &
 dunst &
-setbg ~/Pictures/wall/wallpapers-master/Landscapes/ &
-xbacklight -set 20 &
+setbg /home/dns/Pictures/wall/wallpapers-master/Landscapes/ &
+xbacklight -set 30 &
 remaps &
 locker &
 redshift &

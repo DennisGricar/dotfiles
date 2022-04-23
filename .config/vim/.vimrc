@@ -10,6 +10,8 @@
 " properly set to work with the Vim-related packages.
 runtime! archlinux.vim
 
+au BufRead,BufNewFile *.md set filetype=markdown
+
 set nocompatible
 set number
 set hidden
@@ -33,8 +35,8 @@ set undodir=/tmp//
 let g:terraform_align=1
 let g:terraform_fmt_on_save=1
 
-"let g:vimwiki_list = [{'path': '~/vimwiki/',
-"                      \ 'syntax': 'markdown', 'ext': '.md'}]
+let g:vimwiki_list = [{'path': '~/vimwiki/',
+                      \ 'syntax': 'markdown', 'ext': '.md'}]
 "let g:vimwiki_global_ext = 0
 let g:vimwiki_list = [{'auto_diary_index': 1}]
 let g:vimwiki_diary_months = {
